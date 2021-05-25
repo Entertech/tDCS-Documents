@@ -8,6 +8,5 @@ RUN apt update && apt install git -y && git clone https://github.com/Entertech/t
 
 COPY ./start.sh .
 COPY ./update.sh .
-COPY ./docs ./docs
 
 CMD ./start.sh
