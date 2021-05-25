@@ -4,7 +4,13 @@ RUN sed -i s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g /etc/apt/sources.list &
 
 WORKDIR /docs
 
-RUN apt update && apt install git -y && git clone https://github.com/Entertech/tDCS-Documents.git
+RUN apt update 
+RUN apt install git -y && git clone https://github.com/Entertech/tDCS-Documents.git
+
+WORKDIR /docs/tDCS-Documents/tDCS 
+RUN yarn install 
+
+WORKDIR /docs
 
 COPY ./start.sh .
 COPY ./update.sh .
