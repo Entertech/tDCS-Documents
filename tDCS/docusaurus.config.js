@@ -12,11 +12,6 @@ module.exports = {
   themeConfig: {
     algolia: {
       apiKey: "8f5905d5450125399704a4b158628c01",
-      indexName: "amphoradata",
-      algoliaOptions: {}, // Optional, if provided by Algolia
-    },
-    algolia: {
-      apiKey: "8f5905d5450125399704a4b158628c01",
       indexName: 'tDCS',
 
       // Optional: see doc section below
