@@ -24,7 +24,7 @@ module.exports = {
       searchParameters: {},
 
       //... other Algolia params
-    }
+    },
     navbar: {
       title: 'My Site',
       logo: {
