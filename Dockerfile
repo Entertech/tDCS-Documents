@@ -8,7 +8,7 @@ RUN apt update
 RUN apt install git -y && git clone https://github.com/Entertech/tDCS-Documents.git
 
 WORKDIR /docs/tDCS-Documents/tDCS 
-RUN yarn install 
+RUN yarn install && yarn add @docusaurus/theme-search-algolia
 
 WORKDIR /docs
 
