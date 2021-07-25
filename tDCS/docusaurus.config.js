@@ -12,13 +12,10 @@ module.exports = {
   themeConfig: {
     algolia: {
       apiKey: "8f5905d5450125399704a4b158628c01",
-      indexName: 'tDCS',
+      indexName: "amphoradata",
 
       // Optional: see doc section below
       contextualSearch: true,
-
-      // Optional: see doc section below
-      appId: "0ZMCBZ6EC3",
 
       // Optional: Algolia search parameters
       searchParameters: {},
