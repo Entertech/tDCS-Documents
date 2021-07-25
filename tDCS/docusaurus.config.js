@@ -10,6 +10,11 @@ module.exports = {
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
+    algolia: {
+      apiKey: "8f5905d5450125399704a4b158628c01",
+      indexName: "amphoradata",
+      algoliaOptions: {}, // Optional, if provided by Algolia
+    },
     navbar: {
       title: 'My Site',
       logo: {
