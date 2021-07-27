@@ -1,36 +1,26 @@
 ---
 sidebar_position: 1
+sidebar_label: 首页
+hide_title: true
 slug: /
 ---
 
-# Tutorial Intro 4
+## 小状元帮助中心
+### 使用教程
+#### 连接设备
+[无法连接头戴](/instructions/Can-Not-Connecting-Headset.html)
 
-Let's discover **Docusaurus in less than 5 minutes**.
+[打开微信定位权限](/instructions/Enabling-Location-Permission.html)
 
-## Getting Started
+[打开手机蓝牙](/instructions/Turn-On-Bluetooth.html)
+### 常见问题
+### 安全注意事项
+[安全性说明](/safety/safety.html)
 
-Get started by **creating a new site**.
+[安全使用警告](/safety/warnings.html)
 
-Or **try Docusaurus immediately** with **[new.docusaurus.io](https://new.docusaurus.io)**.
+[使用注意事项](/safety/precautions.html)
 
-## Generate a new site
+[可能的不良反应](/safety/possible-adverse-reactions.html)
 
-Generate a new Docusaurus site using the **classic template**:
 
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
