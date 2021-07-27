@@ -35,7 +35,6 @@ module.exports = {
           position: 'left',
           label: 'Docs',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/Entertech/tDCS-Documents/tree/master/tDCS',
           label: 'GitHub',
@@ -47,11 +46,11 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Entertech',
           items: [
             {
-              label: 'Docs',
-              to: '/docs/intro',
+              label: 'Entertech',
+              href: 'https://www.entertech.cn/',
             },
           ],
         },
@@ -94,6 +93,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
