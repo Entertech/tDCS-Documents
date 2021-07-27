@@ -1,5 +1,5 @@
 ---
-slug: /instructions/Turn-On-Bluetooth.html
+slug: /instructions/turn-on-bluetooth.html
 sidebar_label: 打开手机蓝牙
 hide_title: true
 ---

@@ -1,5 +1,5 @@
 ---
-slug: /instructions/Enabling-Location-Permission.html
+slug: /instructions/enable-location-permission.html
 sidebar_label: 打开微信定位权限
 hide_title: true
 ---

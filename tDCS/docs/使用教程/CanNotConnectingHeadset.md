@@ -1,5 +1,5 @@
 ---
-slug: /instructions/Can-Not-Connecting-Headset.html
+slug: /instructions/can-not-connecting-headset.html
 sidebar_label: 无法连接头戴
 hide_title: true
 ---
