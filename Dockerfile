@@ -4,7 +4,8 @@ RUN sed -i s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g /etc/apt/sources.list &
 
 WORKDIR /docs
 
-RUN apt update 
+RUN apt update
+RUN echo "Update"
 RUN apt install git -y && git clone https://github.com/Entertech/tDCS-Documents.git
 
 WORKDIR /docs/tDCS-Documents/tDCS 

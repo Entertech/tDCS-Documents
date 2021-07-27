@@ -4,7 +4,7 @@ services:
 
   tdcs-docs:
     # image: registry.cn-shanghai.aliyuncs.com/entertech/tdcs-docs${ENVFLAG}:${VERSION}
-    image: registry.cn-shanghai.aliyuncs.com/entertech/tdcs-docs:0.1.0
+    image: registry.cn-shanghai.aliyuncs.com/entertech/tdcs-docs:0.1.1
     build:
       context: .
     ports: 
