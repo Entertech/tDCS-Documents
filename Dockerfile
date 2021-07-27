@@ -5,11 +5,14 @@ RUN sed -i s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g /etc/apt/sources.list &
 WORKDIR /docs
 
 RUN apt update
-RUN echo "Update"
-RUN apt install git -y && git clone https://github.com/Entertech/tDCS-Documents.git
+RUN apt install git -y && git clone https://gitee.com/lockeysama/tDCS-Documents.git
 
 WORKDIR /docs/tDCS-Documents/tDCS 
-RUN yarn install && yarn add @docusaurus/theme-search-algolia
+RUN yarn add @docusaurus/theme-search-algolia && yarn install
+RUN git config --global user.email "you@example.com" \
+&& git config --global user.name "Your Name" \
+&& cd .. && git add tDCS/package.json tDCS/yarn.lock \
+&& git commit -m "nothing"
 
 WORKDIR /docs
 

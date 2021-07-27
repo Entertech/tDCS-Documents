@@ -1,14 +1,14 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'tDCS',
+  tagline: 'tDCS',
+  url: 'https://help.xzytdcs.com/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'entertech', // Usually your GitHub org/user name.
+  projectName: 'tDCS', // Usually your repo name.
   themeConfig: {
     algolia: {
       apiKey: "8f5905d5450125399704a4b158628c01",
@@ -31,7 +31,7 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'intro',
+          docId: 'Docs',
           position: 'left',
           label: 'Docs',
         },
