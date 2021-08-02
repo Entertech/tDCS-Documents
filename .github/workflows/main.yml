@@ -1,0 +1,14 @@
+name: Sync To Gitee
+on:
+  push:
+    branches: [ master ]
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: wearerequired/git-mirror-action@master
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.GITEE_ACTION_PRV }}
+        with:
+          source-repo: "git@github.com:Entertech/tDCS-Documents.git"
+          destination-repo: "git@gitee.com:Lockeysama/tDCS-Documents.git"
