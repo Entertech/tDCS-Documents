@@ -5,7 +5,8 @@ RUN sed -i s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g /etc/apt/sources.list &
 WORKDIR /docs
 
 RUN apt update
-RUN apt install git -y && git clone https://gitee.com/lockeysama/tDCS-Documents.git
+RUN apt install git -y
+RUN git clone https://gitee.com/lockeysama/tDCS-Documents.git
 
 WORKDIR /docs/tDCS-Documents/tDCS 
 RUN yarn add @docusaurus/theme-search-algolia && yarn install
