@@ -1,8 +1,9 @@
 ---
-slug: /instructions/turn-on-bluetooth.html
+slug: /instructions/turn-on-bluetooth
 sidebar_label: 打开手机蓝牙
 hide_title: true
 ---
+
 ## 打开手机蓝牙
 在手机上，前往“设置”>“蓝牙”，然后开启“蓝牙”。
 

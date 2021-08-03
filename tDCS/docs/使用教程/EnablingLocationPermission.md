@@ -1,8 +1,9 @@
 ---
-slug: /instructions/enable-location-permission.html
+slug: /instructions/enable-location-permission
 sidebar_label: 打开微信定位权限
 hide_title: true
 ---
+
 ## 如何打开微信定位权限
 首先请确定微信的定位权限为
 1. 点击小程序右上角[...]

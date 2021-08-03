@@ -4,23 +4,16 @@ module.exports = {
   tagline: 'tDCS are cool',
   url: 'https://help.xzytdcs.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'entertech', // Usually your GitHub org/user name.
   projectName: 'tdcs', // Usually your repo name.
   themeConfig: {
     algolia: {
+      appId: '0ZMCBZ6EC3',
       apiKey: "8f5905d5450125399704a4b158628c01",
-      indexName: "amphoradata",
-
-      // Optional: see doc section below
-      contextualSearch: true,
-
-      // Optional: Algolia search parameters
-      searchParameters: {},
-
-      //... other Algolia params
+      indexName: "tDCS",
     },
     navbar: {
       title: 'tDCS',
@@ -108,6 +101,11 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+        },
+        sitemap: {
+          changefreq: 'hourly',
+          priority: 1.0,
+          trailingSlash: false,
         },
       },
     ],

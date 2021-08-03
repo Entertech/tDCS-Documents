@@ -3,6 +3,25 @@ on:
   push:
     branches: [ master ]
 jobs:
+  checks:
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '14.x'
+      - name: Test Build
+        run: |
+          cd tDCS
+          if [ -e yarn.lock ]; then
+          yarn install --frozen-lockfile
+          elif [ -e package-lock.json ]; then
+          npm ci
+          else
+          npm i
+          fi
+          yarn build
   sync:
     runs-on: ubuntu-latest
     steps:
@@ -12,3 +31,15 @@ jobs:
         with:
           source-repo: "git@github.com:Entertech/tDCS-Documents.git"
           destination-repo: "git@gitee.com:Lockeysama/tDCS-Documents.git"
+  ds-update:
+    runs-on: ubuntu-latest
+    name: update doc search index
+    steps:
+      - uses: Entertech/tDCS-Documents@master
+      - name: docs
+        uses: ./
+        with:
+          algolia_api_key: ${{ secrets.ALGOLIA_API_KEY }}
+          algolia_application_id: ${{ secrets.ALGOLIA_APPLICATION_ID }}
+          # needs to be inside $GITHUB_WORKSPACE from actions/checkout step
+          file: scrapy.json

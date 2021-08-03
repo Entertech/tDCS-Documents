@@ -22,5 +22,3 @@ slug: /
 [使用注意事项](/safety/precautions.html)
 
 [可能的不良反应](/safety/possible-adverse-reactions.html)
-
-

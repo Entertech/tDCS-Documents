@@ -1,8 +1,9 @@
 ---
-slug: /safety/possible-adverse-reactions.html
+slug: /safety/possible-adverse-reactions
 sidebar_label: 可能的不良反应
 hide_title: true
 ---
+
 ## 使用头戴可能产生的不良反应
 
 - 由于局部血流增大、血管舒张，海绵片下方的皮肤会出现暂时性发红。这是安全的，使用结束后 30~60 分钟消除。
