@@ -24,7 +24,7 @@ jobs:
           npm i
           fi
           yarn build
-          docker run -it -e "APPLICATION_ID=${APPLICATION_ID}" -e "APP_KEY=${APP_KEY}" -e "CONFIG=$(cat ../scrapy.json | jq -r tostring)" algolia/docsearch-scraper
+          docker run -i -e "APPLICATION_ID=${APPLICATION_ID}" -e "APP_KEY=${APP_KEY}" -e "CONFIG=$(cat ../scrapy.json | jq -r tostring)" algolia/docsearch-scraper:v1.16.0
   sync:
     runs-on: ubuntu-latest
     steps:
