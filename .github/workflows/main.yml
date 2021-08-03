@@ -8,6 +8,9 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
+        env:
+          API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
+          APPLICATION_ID: ${{ secrets.ALGOLIA_APPLICATION_ID }}
         with:
           node-version: '14.x'
       - name: Test Build
@@ -21,6 +24,7 @@ jobs:
           npm i
           fi
           yarn build
+          docker run -it -e "APPLICATION_ID=${APPLICATION_ID}" -e "APP_KEY=${APP_KEY}" -e "CONFIG=$(cat ../scrapy.json | jq -r tostring)" algolia/docsearch-scraper
   sync:
     runs-on: ubuntu-latest
     steps:
@@ -30,15 +34,3 @@ jobs:
         with:
           source-repo: "git@github.com:Entertech/tDCS-Documents.git"
           destination-repo: "git@gitee.com:Lockeysama/tDCS-Documents.git"
-  ds-update:
-    runs-on: ubuntu-latest
-    name: update doc search index
-    steps:
-      - uses: actions/checkout@v2
-      - name: docs
-        uses: ./
-        with:
-          algolia_api_key: ${{ secrets.ALGOLIA_API_KEY }}
-          algolia_application_id: ${{ secrets.ALGOLIA_APPLICATION_ID }}
-          # needs to be inside $GITHUB_WORKSPACE from actions/checkout step
-          file: scrapy.json
