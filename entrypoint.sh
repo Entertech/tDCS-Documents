@@ -20,7 +20,7 @@ echo "APPLICATION_ID=${APPLICATION_ID}
 API_KEY=${API_KEY}
 " > .env
 
-sleep 120
+sleep 90
 
 # run algolia docsearch
 python docsearch run $GITHUB_WORKSPACE/$FILE

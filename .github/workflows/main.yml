@@ -4,7 +4,6 @@ on:
     branches: [ master ]
 jobs:
   checks:
-    if: github.event_name != 'push'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
@@ -35,7 +34,7 @@ jobs:
     runs-on: ubuntu-latest
     name: update doc search index
     steps:
-      - uses: Entertech/tDCS-Documents@master
+      - uses: actions/checkout@v2
       - name: docs
         uses: ./
         with:
