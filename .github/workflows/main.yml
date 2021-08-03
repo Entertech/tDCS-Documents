@@ -24,7 +24,7 @@ jobs:
           npm i
           fi
           yarn build
-          docker run -i -e "ALGOLIA_APPLICATION_ID=${ALGOLIA_APPLICATION_ID}" -e "ALGOLIA_API_KEY=${ALGOLIA_API_KEY}" -e "CONFIG=$(cat ../scrapy.json | jq -r tostring)" algolia/docsearch-scraper:v1.16.0
+          docker run -i -e "ALGOLIA_APP_ID=${ALGOLIA_APPLICATION_ID}" -e "ALGOLIA_API_KEY=${ALGOLIA_API_KEY}" -e "CONFIG=$(cat ../scrapy.json | jq -r tostring)" algolia/docsearch-scraper:v1.16.0
   sync:
     runs-on: ubuntu-latest
     steps:
