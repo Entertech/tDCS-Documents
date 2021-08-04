@@ -27,4 +27,4 @@ jobs:
       - uses: actions/checkout@v1
       - name: Doc Search Update
         run: |
-          cat ./scrapy.json | jq -r tostring && docker run -i -e "ALGOLIA_APP_ID=${{ secrets.ALGOLIA_API_KEY }}" -e "ALGOLIA_API_KEY=${{ secrets.ALGOLIA_APPLICATION_ID }}" -e "CONFIG=$(cat ./scrapy.json | jq -r tostring)" algolia/docsearch-scraper:v1.16.0
+          curl https://help.xzytdcs.com/sitemap.xml && docker run -i -e "ALGOLIA_APP_ID=${{ secrets.ALGOLIA_API_KEY }}" -e "ALGOLIA_API_KEY=${{ secrets.ALGOLIA_APPLICATION_ID }}" -e "CONFIG=$(cat ./scrapy.json | jq -r tostring)" algolia/docsearch-scraper:v1.16.0
