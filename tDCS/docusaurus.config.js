@@ -11,8 +11,8 @@ module.exports = {
   projectName: 'tdcs', // Usually your repo name.
   themeConfig: {
     algolia: {
-      appId: '0ZMCBZ6EC3',
-      apiKey: "8f5905d5450125399704a4b158628c01",
+      appId: 'S5563UBO3D',
+      apiKey: "8ca5a6454477070fdafd5d2923f9bd35",
       indexName: "tDCS",
     },
     navbar: {
