@@ -1,24 +1,21 @@
 #/bin/sh
 
+UPSTREAM=${1:-'@{u}'}
+REMOTE_RECORD=$(git rev-parse "$UPSTREAM")
+
 while true
 do
-    UPSTREAM=${1:-'@{u}'}
-    LOCAL=$(git rev-parse @)
     REMOTE=$(git rev-parse "$UPSTREAM")
-    BASE=$(git merge-base @ "$UPSTREAM")
-
-    if [ $LOCAL = $REMOTE ]; then
+ 
+    if [ $REMOTE_RECORD = $REMOTE ]; then
         echo "Up-to-date"
-    elif [ $LOCAL = $BASE ]; then
+    else
         echo "Need to pull"
         git pull
+        REMOTE_RECORD=$(git rev-parse "$UPSTREAM")
         cd tDCS
         yarn build
         cd ..
-    elif [ $REMOTE = $BASE ]; then
-        echo "Need to push"
-    else
-        echo "Diverged"
     fi
     sleep 60s
 done
