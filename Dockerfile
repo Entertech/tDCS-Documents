@@ -9,7 +9,9 @@ RUN apt install git -y
 RUN git clone https://gitee.com/lockeysama/tDCS-Documents.git
 
 WORKDIR /docs/tDCS-Documents/tDCS 
-RUN yarn add @docusaurus/theme-search-algolia && yarn install
+RUN yarn add @docusaurus/theme-search-algolia \
+&& yarn add @docusaurus/plugin-sitemap \
+&& yarn install
 RUN git config --global user.email "you@example.com" \
 && git config --global user.name "Your Name" \
 && cd .. && git add tDCS/package.json tDCS/yarn.lock \
