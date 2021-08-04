@@ -6,7 +6,9 @@ slug: /
 ---
 
 ## 小状元帮助中心
+
 ### 使用教程
+
 #### 连接设备
 [无法连接头戴](/instructions/Can-Not-Connecting-Headset.html)
 
