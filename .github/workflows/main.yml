@@ -17,7 +17,7 @@ jobs:
     needs: sync
     steps:
       - uses: actions/checkout@v1
-      - name: Doc Search Update
+      - name: Sitemap Check
         run: |
           sleep 120; while true; do STATUS=$(curl -s --head -w %{http_code} https://help.xzytdcs.com/sitemap.xml -o /dev/null); if [ $STATUS = 200 ]; then echo 'exit...'; break; else echo $STATUS 'wating'; sleep 3; fi; done
   ds-update:
@@ -27,4 +27,4 @@ jobs:
       - uses: actions/checkout@v1
       - name: Doc Search Update
         run: |
-          docker run -i -e "ALGOLIA_APP_ID=${{ secrets.ALGOLIA_API_KEY }}" -e "ALGOLIA_API_KEY=${{ secrets.ALGOLIA_APPLICATION_ID }}" -e "CONFIG=$(cat ../scrapy.json | jq -r tostring)" algolia/docsearch-scraper:v1.16.0
+          docker run -i -e "ALGOLIA_APP_ID=${{ secrets.ALGOLIA_API_KEY }}" -e "ALGOLIA_API_KEY=${{ secrets.ALGOLIA_APPLICATION_ID }}" -e "CONFIG=$(cat ./scrapy.json | jq -r tostring)" algolia/docsearch-scraper:v1.16.0
