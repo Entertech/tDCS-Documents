@@ -1,8 +1,9 @@
 ---
-slug: /safety/safety.html
+slug: /safety/safety
 sidebar_label: 安全性说明
 hide_title: true
 ---
+
 ## 头戴安全性说明
 小状元记忆头戴采用的 tDCS 技术是安全的。
 

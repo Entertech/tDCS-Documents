@@ -1,91 +1,85 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'tDCS',
+  tagline: 'tDCS are cool',
+  url: 'https://help.xzytdcs.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'entertech', // Usually your GitHub org/user name.
+  projectName: 'tdcs', // Usually your repo name.
   themeConfig: {
     algolia: {
-      apiKey: "8f5905d5450125399704a4b158628c01",
-      indexName: "amphoradata",
-
-      // Optional: see doc section below
-      contextualSearch: true,
-
-      // Optional: Algolia search parameters
-      searchParameters: {},
-
-      //... other Algolia params
+      appId: 'S5563UBO3D',
+      apiKey: "8ca5a6454477070fdafd5d2923f9bd35",
+      indexName: "tDCS",
     },
     navbar: {
-      title: 'tDCS Help',
+      title: 'tDCS',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'tDCS',
         src: 'img/logo.svg',
       },
       items: [
-        {
-          type: 'doc',
-          docId: 'intro',
-          position: 'left',
-          label: 'Docs',
-        },
-        {
-          href: 'https://github.com/Entertech/tDCS-Documents/tree/master/tDCS',
-          label: 'GitHub',
-          position: 'right',
-        },
+        // {
+        //   type: 'doc',
+        //   docId: 'Docs',
+        //   position: 'left',
+        //   label: 'Docs',
+        // },
+        // {to: '/blog', label: 'Blog', position: 'left'},
+        // {
+        //   href: 'https://github.com/Entertech/tDCS-Documents/tree/master/tDCS',
+        //   label: 'GitHub',
+        //   position: 'right',
+        // },
       ],
     },
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Entertech',
-          items: [
-            {
-              label: 'Entertech',
-              href: 'https://www.entertech.cn/',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'FAQ',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/Entertech/tDCS-Documents/tree/master/tDCS',
-            },
-          ],
-        },
+    //     {
+    //       title: 'Docs',
+    //       items: [
+    //         {
+    //           label: 'Docs',
+    //           to: '/docs/intro',
+    //         },
+    //       ],
+    //     },
+    //     {
+    //       title: 'Community',
+    //       items: [
+    //         {
+    //           label: 'Stack Overflow',
+    //           href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+    //         },
+    //         {
+    //           label: 'Discord',
+    //           href: 'https://discordapp.com/invite/docusaurus',
+    //         },
+    //         {
+    //           label: 'Twitter',
+    //           href: 'https://twitter.com/docusaurus',
+    //         },
+    //       ],
+    //     },
+    //     {
+    //       title: 'More',
+    //       items: [
+    //         {
+    //           label: 'Blog',
+    //           to: '/blog',
+    //         },
+    //         {
+    //           label: 'GitHub',
+    //           href: 'https://github.com/facebook/docusaurus',
+    //         },
+    //       ],
+    //     },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} tDCS, Inc. Built with Entertech.`,
+      copyright: `Copyright © ${new Date().getFullYear()} tDCS, Inc. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -96,8 +90,8 @@ module.exports = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+        //   editUrl:
+        //     'https://github.com/Entertech/tDCS-Documents/tree/master/edit/master/tDCS/',
         },
         blog: {
           showReadingTime: true,
@@ -107,6 +101,11 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+        },
+        sitemap: {
+          changefreq: 'hourly',
+          priority: 1.0,
+          trailingSlash: false,
         },
       },
     ],

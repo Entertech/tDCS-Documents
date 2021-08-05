@@ -3,10 +3,6 @@ version: '3.7'
 services:
 
   tdcs-docs:
-    # image: registry.cn-shanghai.aliyuncs.com/entertech/tdcs-docs${ENVFLAG}:${VERSION}
-    image: registry.cn-shanghai.aliyuncs.com/entertech/tdcs-docs:0.1.0
+    image: registry.cn-shanghai.aliyuncs.com/entertech/tdcs-docs:0.1.3
     build:
       context: .
-    ports: 
-      - 13000:3000
-    # command: "sleep 1000"

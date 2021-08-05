@@ -1,8 +1,10 @@
 ---
-slug: /instructions/can-not-connecting-headset.html
+slug: /instructions/can-not-connecting-headset
 sidebar_label: 无法连接头戴
 hide_title: true
 ---
+
+
 ## 无法连接头戴，怎么办？
 * 按住头戴按键，直至头戴提示「连接蓝牙」再放开，此时头戴指示灯应为蓝色闪烁状态。
 * 如果长按按键，没有语音播报或者指示灯没有亮，请给头环充电 10 分钟以上再试。

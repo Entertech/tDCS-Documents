@@ -1,8 +1,9 @@
 ---
-slug: /safety/precautions.html
+slug: /safety/precautions
 sidebar_label: 使用注意事项
 hide_title: true
 ---
+
 ## 头戴使用注意事项
 使用小状元记忆头戴时，请了解以下注意事项：
 
