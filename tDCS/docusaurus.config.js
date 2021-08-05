@@ -16,9 +16,9 @@ module.exports = {
       indexName: "tDCS",
     },
     navbar: {
-      title: 'tDCS',
+      title: '小状元记忆头戴',
       logo: {
-        alt: 'tDCS',
+        alt: '小状元记忆头戴',
         src: 'img/logo.svg',
       },
       items: [
@@ -37,17 +37,16 @@ module.exports = {
       ],
     },
     footer: {
-      style: 'dark',
+      style: 'light',
       links: [
-    //     {
-    //       title: 'Docs',
-    //       items: [
-    //         {
-    //           label: 'Docs',
-    //           to: '/docs/intro',
-    //         },
-    //       ],
-    //     },
+      //   {
+      //     items: [
+      //       {
+      //         label: '小状元记忆头戴官网',
+      //         href: 'https://www.xzytdcs.com',
+      //       }
+      //     ],
+      //   }
     //     {
     //       title: 'Community',
     //       items: [
@@ -79,7 +78,7 @@ module.exports = {
     //       ],
     //     },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} tDCS, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Entertech, Inc. Built with Docusaurus.`,
     },
   },
   presets: [
