@@ -8,15 +8,9 @@ slug: /
 ## 小状元帮助中心
 
 ### 使用教程
-
-#### 连接设备
-
-* [无法连接头戴](/instructions/Can-Not-Connecting-Headset)
-* [打开微信定位权限](/instructions/enable-location-permission)
-* [打开手机蓝牙](/instructions/Turn-On-Bluetooth)
-
-#### 头戴使用
-#### 常见问题
+* [头戴使用教程](/instructions/instructions-directory)
+* [常见问题](/instructions/faq-directory)
+* [连接头戴](/instructions/connecting-headset-directory)
 
 ### 安全注意事项
 
