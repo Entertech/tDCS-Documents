@@ -1,13 +1,13 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'tDCS',
-  tagline: 'tDCS are cool',
+  title: '小状元记忆头戴',
+  tagline: '快速提高学习记忆力。',
   url: 'https://help.xzytdcs.com',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'entertech', // Usually your GitHub org/user name.
+  organizationName: 'Entertech', // Usually your GitHub org/user name.
   projectName: 'tdcs', // Usually your repo name.
   themeConfig: {
     algolia: {
@@ -78,7 +78,7 @@ module.exports = {
     //       ],
     //     },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Entertech, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} 童瞳网络。保留所有权利。`,
     },
   },
   presets: [

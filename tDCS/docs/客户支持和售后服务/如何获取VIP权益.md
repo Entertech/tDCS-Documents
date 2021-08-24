@@ -1,6 +1,7 @@
 ---
 slug: /support/get-vip
 sidebar_label: 获取 VIP 权益
+sidebar_position: 2
 hide_title: true
 ---
 
