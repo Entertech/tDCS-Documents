@@ -20,3 +20,8 @@ slug: /
 * [可能的不良反应](/safety/possible-adverse-reactions)
 
 ### 客户支持和售后服务
+* [保修条例](/support/warranty)
+* [获取 VIP 权益](/support/get-vip)
+* [专属 VIP 服务](/support/what-is-vip-service)
+* [添加专属服务官](/support/get-support)
+* [退货/换货](/support/changing-or-refunding)
