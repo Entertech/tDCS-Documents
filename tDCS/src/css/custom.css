@@ -24,6 +24,11 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
+@media (max-width: 500px)
+.searchBox_1Doo {
+    display: none;
+}
+
 .pagination-nav {
     display: none;
 }
