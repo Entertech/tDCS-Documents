@@ -24,11 +24,12 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-@media (max-width: 500px)
-.searchBox_1Doo {
+.pagination-nav {
     display: none;
 }
 
-.pagination-nav {
-    display: none;
+@media (max-width: 500px) {
+  .DocSearch-Button {
+      display: none !important;
+  }
 }
