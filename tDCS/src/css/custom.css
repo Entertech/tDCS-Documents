@@ -29,7 +29,10 @@
 }
 
 @media (max-width: 500px) {
+  .tocCollapsible_1PrD {
+    display: none;
+  }
   .DocSearch-Button {
-      display: none !important;
+    display: none !important;
   }
 }
