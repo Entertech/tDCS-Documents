@@ -18,6 +18,7 @@ slug: /
 * [安全使用警告](/safety/warnings)
 * [使用注意事项](/safety/precautions)
 * [可能的不良反应](/safety/possible-adverse-reactions)
+* [常见问题](/safety/faq-directory)
 
 ### 客户支持和售后服务
 * [保修条例](/support/warranty)
