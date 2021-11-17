@@ -3,6 +3,6 @@ version: '3.7'
 services:
 
   tdcs-docs:
-    image: registry.cn-shanghai.aliyuncs.com/entertech/tdcs-docs:0.1.3
+    image: 671277380155.dkr.ecr.us-west-2.amazonaws.com/tdcs/tdcs-docs-international:0.1.3
     build:
       context: .

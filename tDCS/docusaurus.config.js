@@ -2,7 +2,7 @@
 module.exports = {
   title: '小状元记忆头戴',
   tagline: '快速提高学习记忆力。',
-  url: 'https://help.xzytdcs.com',
+  url: 'https://help.flowtimetdcs.com',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -11,9 +11,9 @@ module.exports = {
   projectName: 'tdcs', // Usually your repo name.
   themeConfig: {
     algolia: {
-      appId: 'S5563UBO3D',
-      apiKey: "8ca5a6454477070fdafd5d2923f9bd35",
-      indexName: "tDCS",
+      appId: 'NYPZTDO3JS',
+      apiKey: "efb78d11a183e41001a128b6c415719d",
+      indexName: "tDCS-international",
     },
     navbar: {
       title: '小状元记忆头戴',
