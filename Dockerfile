@@ -9,7 +9,9 @@ RUN sed -i s@/deb.debian.org/@/mirrors.aliyun.com/@g /etc/apt/sources.list \
 
 WORKDIR /docs
 
-RUN git clone https://gitee.com/lockeysama/tDCS-Documents.git
+RUN git clone https://gitee.com/lockeysama/tDCS-Documents.git \
+&& cd tDCS-Documents \
+&& git checkout international
 
 WORKDIR /docs/tDCS-Documents/tDCS 
 RUN yarn add @docusaurus/theme-search-algolia \
