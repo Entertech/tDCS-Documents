@@ -5,7 +5,7 @@ RUN sed -i s@/deb.debian.org/@/mirrors.aliyun.com/@g /etc/apt/sources.list \
 && apt update \
 && apt install git -y \
 && apt clean \
-&& npm config set registry=http://registry.npm.taobao.org
+&& yarn config set registry https://registry.npmmirror.com --global
 
 WORKDIR /docs
 
