@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: '小状元记忆头戴',
-  tagline: '快速提高学习记忆力。',
+  title: 'Flowtimw tDCS',
+  tagline: 'Flowtime tDCS Headset boost brain power in 1 minute.',
   url: 'https://help.flowtimetdcs.com',
   baseUrl: '/',
   onBrokenLinks: 'warn',
@@ -16,9 +16,9 @@ module.exports = {
       indexName: "tDCS-international",
     },
     navbar: {
-      title: '小状元记忆头戴',
+      title: 'Flowtimw tDCS',
       logo: {
-        alt: '小状元记忆头戴',
+        alt: 'Flowtimw tDCS',
         src: 'img/logo.svg',
       },
       items: [
@@ -42,7 +42,7 @@ module.exports = {
       //   {
       //     items: [
       //       {
-      //         label: '小状元记忆头戴官网',
+      //         label: 'Flowtimw tDCS官网',
       //         href: 'https://www.xzytdcs.com',
       //       }
       //     ],
@@ -78,7 +78,7 @@ module.exports = {
     //       ],
     //     },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} 童瞳网络。保留所有权利。`,
+      copyright: `Copyright © ${new Date().getFullYear()} Entertech Inc. All rights reserved.`,
     },
   },
   presets: [
