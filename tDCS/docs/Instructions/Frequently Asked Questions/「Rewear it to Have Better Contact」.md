@@ -1,0 +1,10 @@
+---
+slug: /instructions/rewear-the-headset
+sidebar_label: 「Rewear it to Have Better Contact」
+sidebar_position: 2
+hide_title: true
+---
+
+## What Does「Rewear it to Have Better Contact」Mean?
+When there is almost no contact between the headset and the scalp, the headset says 「Rewear it to Have Better Contact」, which means you need to fix hair and rewear the headset in the correct position until the contact is good. Users who have thick hair can move the headset to the vicinity of the hairline to increase contact.
+
