@@ -1,12 +1,12 @@
 ---
 slug: /instructions/connecting-headset
-sidebar_label: Connecting the Headset
+sidebar_label: Connect the Headset
 sidebar_position: 2
 hide_title: true
 ---
-## Connecting the Headset
-* In the off state, press and hold the headset button, and continue to press after hearing the power-on music.
-* After entering the Bluetooth connection mode, the indicator next to the headset button flashes blue, and the headset plays the voice "Connect Bluetooth".
-* Click the Connect headset button on the applet to start connecting the device.
-* After the connection is successful, the headset will play the voice "Connected successfully".
+## How to Connect the Headset?
+* If the headset is off, press and hold the key. Don't release it until you hear "Bluetooth ready to connect." Don't release the key even you hear the power-on music. Otherwise, the Bluetooth connection mode is not active.
+* After it's in the Bluetooth connection mode, the indicator next to the headset button flashes blue.
+* Follow the instructions in the app to connect the headset.
+* After the connection is successful, the headset will say "Bluetooth Connected".
 

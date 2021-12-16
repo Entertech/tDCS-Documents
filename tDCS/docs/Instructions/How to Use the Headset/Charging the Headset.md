@@ -1,14 +1,14 @@
 ---
 slug: /instructions/charge
-sidebar_label: Charging the Headset
+sidebar_label: Charge the Headset
 sidebar_position: 8
 hide_title: true
 ---
-## Charging the Headset
+## Charge the Headset
 
-- When the headset plays the "battery low, please charge" prompt and automatically shuts down, it indicates that the headset has a low battery level and needs to be recharged.
-- Connect the headset and the power adapter through the USB Type-C data cable for charging. There are no special requirements for the power adapter, just a normal compliant mobile phone power adapter.
-- Charging: When not fully charged, the indicator light on the headset will turn red
--After being fully charged, the indicator light on the headset will turn green.
-- Under normal circumstances, it takes 2 hours to fully charge the battery from exhaustion. When the battery is exhausted, charge for 10 minutes to charge the battery needed for one activation.
+- If the headset says「Low battery. Please charge」 and shuts down automatically, the headset has a low battery and has to be charged before next use.
+- Connect the headset to a power adapter via the USB Type-C cable. There is no special requirement for the power adapter. Just a standard mobile phone power adapter is OK.
+- Charging: If the headset is not fully charged, the indicator light on the headset will turn red.
+Once fully charged, the indicator light will turn green.
+- Generally, it takes 2 hours to charge the battery fully. When the battery is too low to start a session, charge it for 10 minutes, and it has the battery for a 30-minute session.
 

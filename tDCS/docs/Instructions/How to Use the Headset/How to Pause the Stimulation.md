@@ -1,11 +1,11 @@
 ---
 slug: /instructions/pause-stimulating
-sidebar_label: How to Pause the Stimulation
+sidebar_label: Pause a Session
 sidebar_position: 6
 hide_title: true
 ---
 
-## How to Pause the Stimulation？
+## How to Pause a Session？
 
--During the activation process, you can press the headset button to pause the activation. After the button is pressed, the headset will play "Pause, please take off the headset after the beep", please wait for the headset to play the "di" sound and then take it off Head wear.
--When re-using after a pause, wear the headset first, and then press the headset button to continue activation.
+- During the stimulation, you can press the headset key to pause the session. After you press it, the headset will say "Stimulation suspended. Please don't remove the headset until you hear the beep." Please wait till you hear the beep and then take it off.
+- If you are ready to continue, position the headset in place, and then press the headset key to continue the session.

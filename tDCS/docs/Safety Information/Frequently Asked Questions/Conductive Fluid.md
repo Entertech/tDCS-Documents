@@ -5,5 +5,5 @@ sidebar_position: 1
 hide_title: true
 ---
 
-## Does the conductive fluid in the sponge irritate the skin?
-The conductive fluid in the sponge is saline, which is non-irritating to the skin. People who are allergic to sponge or saline should not use Flowtime tDCS headset.
+## Does the conductive fluid used in the sponge pads irritate the skin?
+The conductive fluid is saline, which is non-irritating to the skin. People who are allergic to sponges or saline should not use Flowtime tDCS headset.

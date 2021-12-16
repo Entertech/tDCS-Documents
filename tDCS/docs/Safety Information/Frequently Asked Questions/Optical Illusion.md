@@ -6,5 +6,5 @@ hide_title: true
 ---
 
 ## Is it normal for optical illusion during use?
-There was a sudden 「flash」during use, which is most likely caused by improper operations that did not follow the instructions (such as sudden removal of the device during activation). This is a momentary optical illusion caused by a sudden increase or decrease of current, and it is harmless.
+If you do not follow the instructions, such as removing the headset during use, a sudden ”flash“ may occur. This is a momentary optical illusion caused by a sudden increase or decrease of current. You may be frightened, but it is harmless.
 
