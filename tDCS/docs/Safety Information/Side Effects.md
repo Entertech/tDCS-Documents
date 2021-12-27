@@ -6,7 +6,7 @@ hide_title: true
 ---
 
 ## Side Effects
-- Due to increased local blood flow and vasodilation, the skin under the sponge tends to turn red. This is harmless and will subside 30-60 minutes after use.
-- Some users may experience slight skin itching or tingling. This is safe and can be relieved by pressing the sponge to increase contact or reduce the activation intensity. If there is no relief or becomes more serious, please stop using the headset.
-- There was a sudden 「flash」during use, which is most likely caused by improper operations that did not follow the instructions (such as sudden removal of the device during activation). This is a momentary optical illusion caused by a sudden increase or decrease of current, and it is harmless.
-- If you experience tinnitus, dizziness, headache, etc. during or after wearing the head, please stop using the headset.
+- The skin under the sponge pads tends to turn red due to increased local blood flow and vasodilation. This is harmless and will subside in 30-60 minutes after use.
+- Some users may experience slight skin itching or tingling. This is safe and can be relieved by pressing the pads to have better contact or reduce the current strength. If that feeling continues or becomes more serious, stop using the headset and ask customer service for help.
+- If you do not follow the instructions, such as removing the headset during use, a sudden ”flash“ may occur. This is a momentary optical illusion caused by a sudden increase or decrease of current. You may be frightened, but it is harmless.
+- If you experience tinnitus, dizziness, headache, etc., during or after wearing the head, please stop using the headset and ask customer service for help.
