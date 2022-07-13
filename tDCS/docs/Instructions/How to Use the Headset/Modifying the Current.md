@@ -7,4 +7,4 @@ hide_title: true
 
 ## How to Modify the Current?
 
-You can modify the current strength through「Set Up Current」in the app.
+You can modify the current strength through"Set Up Current"in the app.

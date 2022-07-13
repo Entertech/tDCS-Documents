@@ -5,7 +5,7 @@ sidebar_position: 5
 hide_title: true
 ---
 ## What Should I Do if Connection Failed
-- Press and hold the key until the headset voice says 「Bluetooth ready to connect」.The indicator light flashes blue.
+- Press and hold the key until the headset voice says "Bluetooth ready to connect".The indicator light flashes blue.
 - If there is no voice announcement or the indicator light does not light up, please charge the headband for more than 10 minutes and try again.
 - Make sure to have your phone nearby.
 - Other Bluetooth devices may interfere with the connection process. Please keep them away.
