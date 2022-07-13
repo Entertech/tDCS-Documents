@@ -9,6 +9,6 @@ hide_title: true
 
 * ["Rewear it to Have Better Contact"](/instructions/rewear-the-headset)  
 * [Skin Itching or Tingling](/instructions/itch)
-* [Where to place the electrode pads](/instructions/montage)
+* [Electrode Placements](/instructions/montage)
 * [When to Use the Headset](/instructions/when-to-use)
 * [How Long to Take Effect](/instructions/how-long-to-take-effect)

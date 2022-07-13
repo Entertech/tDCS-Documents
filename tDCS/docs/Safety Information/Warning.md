@@ -1,11 +1,11 @@
 ---
-slug: /safety/warning
+slug: /safety/warnings
 sidebar_label: Warning
-sidebar_position: 3
+sidebar_position: 1
 hide_title: true
 ---
 
-## Warning
+## Warnings
 
 - The Flowtime tDCS headset should only be used for healthy people over 12 years old.
 - The Flowtime tDCS headset is designed to only use on the activation site (F3, F4, and motor cortex). Do **NOT** use the headset in other areas.  

@@ -1,7 +1,7 @@
 ---
 slug: /safety/contraindication
 sidebar_label: Contraindication
-sidebar_position: 4
+sidebar_position: 2
 hide_title: true
 ---
 

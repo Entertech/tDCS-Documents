@@ -21,12 +21,8 @@ slug: /
 
 ### Safety Information
 
-* [Safety](/safety/safety)
-
-* [Contraindication](/safety/contraindication)
+* [Safety](/safety/directory)
 
 * [Warning](/safety/Warning)
 
-* [Side Effects](/safety/side-effects)
-
-* [Frequently Asked Questions](/safety/faq-directory)
+* [Contraindication](/safety/contraindication)

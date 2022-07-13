@@ -1,7 +1,7 @@
 ---
 slug: /safety/conductive-fluid
 sidebar_label: Conductive Fluid
-sidebar_position: 1
+sidebar_position: 6
 hide_title: true
 ---
 

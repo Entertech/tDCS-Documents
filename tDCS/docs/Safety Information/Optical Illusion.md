@@ -1,7 +1,7 @@
 ---
 slug: /safety/optical-illusion
 sidebar_label: Optical Illusion
-sidebar_position: 2
+sidebar_position: 5
 hide_title: true
 ---
 

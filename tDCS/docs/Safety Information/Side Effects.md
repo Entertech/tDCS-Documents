@@ -1,7 +1,7 @@
 ---
 slug: /safety/side-effects
 sidebar_label: Side Effects
-sidebar_position: 1
+sidebar_position: 4
 hide_title: true
 ---
 
