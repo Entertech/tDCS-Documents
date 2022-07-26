@@ -10,3 +10,15 @@ hide_title: true
 * Follow the instructions in the app to connect the headset.
 * After the connection is successful, the headset will say "Bluetooth Connected".
 
+<div align="center">
+    <iframe
+          src="https://tdcs-resources.s3.us-west-2.amazonaws.com/Videos/ConnectDevice.TurnOnDevice.Video.mp4" 
+          scrolling="no" 
+          border="0" 
+          frameborder="no" 
+          framespacing="0" 
+          allowfullscreen="true"
+          width = "253"
+          height = "450"> 
+    </iframe>
+</div>
