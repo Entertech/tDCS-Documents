@@ -1,7 +1,7 @@
 ---
 slug: /instructions/cannot-connect-headset
 sidebar_label: Connection Failed
-sidebar_position: 5
+sidebar_position: 2
 hide_title: true
 ---
 ## What Should I Do if Connection Failed
