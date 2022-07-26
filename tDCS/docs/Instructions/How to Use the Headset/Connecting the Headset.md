@@ -18,7 +18,7 @@ hide_title: true
           frameborder="no" 
           framespacing="0" 
           allowfullscreen="true"
-          width = "100%"
-          height = auto> 
+          width="100%"
+          height="auto"> 
     </iframe>
 </div>
