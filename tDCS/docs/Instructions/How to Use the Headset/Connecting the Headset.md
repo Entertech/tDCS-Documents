@@ -11,14 +11,10 @@ hide_title: true
 * After the connection is successful, the headset will say "Bluetooth Connected".
 
 <div align="center">
-    <iframe
-          src="https://tdcs-resources.s3.us-west-2.amazonaws.com/Videos/ConnectDevice.TurnOnDevice.Video.mp4" 
-          scrolling="no" 
-          border="0" 
-          frameborder="no" 
-          framespacing="0" 
-          allowfullscreen="true"
-          width = "253"
-          height = "450"> 
-    </iframe>
+    <video autoplay="false" controls > 
+        <source 
+            src="https://tdcs-resources.s3.us-west-2.amazonaws.com/Videos/ConnectDevice.TurnOnDevice.Video.mp4" 
+            type="video/mp4"
+        >
+    </video>
 </div>
