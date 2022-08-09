@@ -9,7 +9,7 @@ hide_title: true
 * [How to Turn on/off the Headset](/instructions/turn-device-on-or-off)  
 
 * [How to Connect the Headset](/instructions/connecting-headset)
-* [How to Fix Sponge Pads](/instruction/assemble-sponge)
+* [How to Fix Sponge Pads](/instruction/assembling-sponge)
 * [How to Wear the Headset](/instructions/how-to-wear)
 * [How to Pause the Stimulation/Session](/instructions/pause-stimulating)
 * [How to Modifying the Current](/instructions/change-intensity)

@@ -18,15 +18,11 @@ hide_title: true
 - Place one pad on each headset ring. Put magnetic rings back, and rotate the magnetic rings when you feel it's clung tightly.
 - There is no front or back side of the pads.
 
-<div align="center">
-    <iframe
-          src="https://tdcs-resources.s3.us-west-2.amazonaws.com/Videos/SetupStimCurrent.AssembleSponge.Video.mp4" 
-          scrolling="no" 
-          border="0" 
-          frameborder="no" 
-          framespacing="0" 
-          allowfullscreen="true"
-          width = "253"
-          height = "450"> 
-    </iframe>
-</div>
+<iframe
+    width="100%"
+    height="500"
+    src="https://www.youtube.com/embed/T1LULUssoIM"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+></iframe>

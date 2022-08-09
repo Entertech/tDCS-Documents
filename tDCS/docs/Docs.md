@@ -23,6 +23,6 @@ slug: /
 
 * [Safety](/safety/directory)
 
-* [Warning](/safety/Warning)
+* [Warning](/safety/warnings)
 
 * [Contraindication](/safety/contraindication)

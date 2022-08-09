@@ -14,6 +14,6 @@ hide_title: true
 
 * [Side Effects](/safety/side-effects)
 
-* [Conductive Fluid](/safety/conductive-liquid)
+* [Conductive Fluid](/safety/conductive-fluid)
 
 * [Optical Illusion](/safety/optical-illusion)
