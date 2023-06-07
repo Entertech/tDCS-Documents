@@ -35,3 +35,6 @@ Never use the device:
 :::caution Caution  
 If you doubt whether you can use the product or not, please consult your physician.  
 :::
+
+> If you have any more questions or concerns, feel free to hit us up at customer@entertech.cn.  
+> We're more than happy to help you out however we can and will get back to you as soon as possible.

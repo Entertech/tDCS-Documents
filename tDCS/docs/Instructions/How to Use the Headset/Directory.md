@@ -6,8 +6,7 @@ hide_title: true
 ---
 
 ## Directory
-* [How to Switch the Headset](/instructions/turn-device-on-or-off)  
-
+* [How to Switch the Headset](/instructions/turn-device-on-or-off)
 * [Connecting the Headset](/instructions/connecting-headset)
 * [Assembling Sponge Pads](/instruction/assemble-sponge)
 * [How to Wear the Headset](/instructions/how-to-wear)
