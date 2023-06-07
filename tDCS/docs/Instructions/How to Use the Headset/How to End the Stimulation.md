@@ -9,4 +9,7 @@ hide_title: true
 
 During the stimulation, you can press the headset key to pause the session. Don't take off the headset before you hear a beep. After you remove the headset, you can press and hold the headset key to shut it down.
 
-How to pause? Please refer to [How to Pause the Session](/instructions/pause-stimulating). 
+How to pause? Please refer to [How to Pause the Session](/instructions/pause-stimulating).
+
+> If you have any more questions or concerns, feel free to hit us up at customer@entertech.cn.  
+> We're more than happy to help you out however we can and will get back to you as soon as possible.

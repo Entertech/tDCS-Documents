@@ -8,3 +8,5 @@ hide_title: true
 ## What Does「Press to Have Better Contact」Mean?
 When the pads are not in full contact with the scalp, the headset will say 「Press to Have Better Contact」, which means you need to press the headset against the hair to make the scalp wet enough to have good contact. If you have thick hair, it also works if you move the pads near the hairline to have better contact.
 
+> If you have any more questions or concerns, feel free to hit us up at customer@entertech.cn.  
+> We're more than happy to help you out however we can and will get back to you as soon as possible.

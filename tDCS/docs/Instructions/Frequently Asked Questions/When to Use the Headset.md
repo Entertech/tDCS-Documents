@@ -9,3 +9,5 @@ The Flowtime tDCS headset is a neuromodulation product based on tDCS technology 
 
 So we suggest you use Flowtime tDCS when you just start to do a task, like learning, writing, reading, gaming, etc. Such effect will last for 60-90 minutes after you finish the session. 
 
+> If you have any more questions or concerns, feel free to hit us up at customer@entertech.cn.  
+> We're more than happy to help you out however we can and will get back to you as soon as possible.

@@ -18,3 +18,5 @@ hide_title: true
 - Place one pad on each headset ring. Put magnetic rings back, and rotate the magnetic rings when you feel it's clung tightly.
 - There is no front or back side of the pads.
 
+> If you have any more questions or concerns, feel free to hit us up at customer@entertech.cn.  
+> We're more than happy to help you out however we can and will get back to you as soon as possible.

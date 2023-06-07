@@ -10,3 +10,5 @@ hide_title: true
 * Follow the instructions in the app to connect the headset.
 * After the connection is successful, the headset will say "Bluetooth Connected".
 
+> If you have any more questions or concerns, feel free to hit us up at customer@entertech.cn.  
+> We're more than happy to help you out however we can and will get back to you as soon as possible.
