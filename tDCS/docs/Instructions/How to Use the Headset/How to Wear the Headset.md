@@ -32,3 +32,6 @@ hide_title: true
 
 - After the pads are placed well, press the headset evenly to make the sponge pads are in full contact with and the scalp/skin.
 - If it is still not in good contact, move the pads to the forehead near the hairline.  
+
+> If you have any more questions or concerns, feel free to hit us up at customer@entertech.cn.  
+> We're more than happy to help you out however we can and will get back to you as soon as possible.

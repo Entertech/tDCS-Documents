@@ -9,3 +9,5 @@ The stimulation sites of the Flowtime tDCS headset are designed to be the dorsol
 
 ![](media/16588088447109.jpg)
 
+> If you have any more questions or concerns, feel free to hit us up at customer@entertech.cn.  
+> We're more than happy to help you out however we can and will get back to you as soon as possible.

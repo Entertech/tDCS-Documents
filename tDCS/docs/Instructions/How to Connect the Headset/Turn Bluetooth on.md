@@ -14,3 +14,6 @@ Open your phone's Settings app. Go to Bluetooth, and then turn on Bluetooth.
 For iPhone, you also need to check if Bluetooth is turned on in Control Center.
 
 ![origin_img_v2_6accc151-616e-419c-ba48-1c047fcfc15g](media/origin_img_v2_6accc151-616e-419c-ba48-1c047fcfc15g.jpg)
+
+> If you have any more questions or concerns, feel free to hit us up at customer@entertech.cn.  
+> We're more than happy to help you out however we can and will get back to you as soon as possible.

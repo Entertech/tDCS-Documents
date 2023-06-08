@@ -10,3 +10,6 @@ hide_title: true
 - Turn on and enter the Bluetooth connection mode: When it's off, press and hold the key. Don't release it until you hear "Bluetooth ready to connect." Don't release the key even you hear the power-on music. Otherwise, the Bluetooth connection mode is not active.
 - Shutdown: When the headset is on, press and hold the key, and you'll hear shutoff music.
 - Auto shutdown: The headset will automatically power off if it is not active for more than 5 minutes.
+
+> If you have any more questions or concerns, feel free to hit us up at customer@entertech.cn.  
+> We're more than happy to help you out however we can and will get back to you as soon as possible.

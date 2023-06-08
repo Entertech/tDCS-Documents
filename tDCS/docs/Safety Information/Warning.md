@@ -20,3 +20,6 @@ hide_title: true
 - Please place your headset in a dry environment and avoid direct sunlight.
 - Do **NOT** use the headset with dry sponge pads.
 - The headset can only be used with original components.
+
+> If you have any more questions or concerns, feel free to hit us up at customer@entertech.cn.  
+> We're more than happy to help you out however we can and will get back to you as soon as possible.
