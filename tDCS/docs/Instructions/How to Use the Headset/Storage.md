@@ -11,3 +11,6 @@ hide_title: true
 - Dry the electrodes and place the headset in a dry environment.
 - If your headset gets dirty accidentally, please wipe it with a soft cloth or damp paper towel. Then dry it, and put it in the carrying case.
 - Do not bend your headset.
+
+> If you have any more questions or concerns, feel free to hit us up at customer@entertech.cn.  
+> We're more than happy to help you out however we can and will get back to you as soon as possible.
